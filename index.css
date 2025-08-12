@@ -1,0 +1,73 @@
+/* Google Fonts: Lobster */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a.bars {
+  position: fixed;
+  text-decoration: none;
+  background-color: #228c87;
+  color: white;
+  padding: 7px 13px;
+  margin: 10px 10px 0p 0px;
+  font-size: 30px;
+  top: 10px;
+  right: 10px;
+  line-height: 1.33;
+  z-index: 1;
+  font-weight: normal;
+  border-radius: 1px;
+}
+.back-ground {
+  background-image: url("./assets/big-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+.very-text h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 73px;
+  font-weight: bold;
+  font-family: "Lobster", cursive, sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.406) 0px 0px 10px;
+  text-align: center;
+  margin-top: 190px;
+  letter-spacing: 6px;
+  word-spacing: 18px;
+}
+.very-text h3 {
+  padding: 9px 20px;
+  color: #df5889;
+  font-size: 24px;
+  font-style: italic;
+  font-family: "Lobstre", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+a.FOM {
+  text-decoration: none;
+  border: 1px solid #df314a;
+  padding: 17px 25px;
+  color: #df5889;
+  font-size: 20px;
+  font-family: sans-serif;
+  position: absolute;
+  margin-left: 540px;
+  margin-top: 17px;
+}
+a.FOM:hover {
+  color: #228c87;
+  border: 1px solid #228c87;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+a.scroll-down-arrow {
+  position: absolute;
+  margin-top: 127px;
+  margin-left: 600px;
+}
